@@ -42,6 +42,14 @@ I've broken it in the refactoring).
 
 **master**  is my working / stable-ish branch.   **aaron_dev** is my **really unstable** branch.   **Please note: BOTH BRANCHES ARE MOVING TARGETS.**  it's just that **aaron_dev** is, uh, moving faster.
 
+# NEW: INSTRUCTIONS FOR MACOS
+
+* Set up xcode tools https://stackoverflow.com/a/17980786
+* `brew install opencv suitesparse eigen glew glm freeglut`
+* `brew install cmake boost tinyxml2`
+* Clone this repo
+* Then start the below `./fips gen` stuff
+
 # Quickstart
 
 My targeted environments are Ubuntu 16.04, the [Jetson TX1](http://www.nvidia.com/object/jetson-tx1-module.html) using [NVidia Jetpack 2.3](https://developer.nvidia.com/embedded/jetpack) , and OS X 10.12 with [Homebrew](http://brew.sh/).
