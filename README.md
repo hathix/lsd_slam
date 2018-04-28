@@ -44,9 +44,10 @@ I've broken it in the refactoring).
 
 # NEW: INSTRUCTIONS FOR MACOS
 
-* Set up xcode tools https://stackoverflow.com/a/17980786
-* `brew install opencv suitesparse eigen glew glm freeglut`
-* `brew install cmake boost tinyxml2`
+I (@hathix) followed these directions to get this repo running on macOS 10.13.
+
+* Set up xcode tools: https://stackoverflow.com/a/17980786
+* `brew install opencv suitesparse eigen glew glm freeglut cmake boost tinyxml2`
 * Clone this repo
 * Then start the below `./fips gen` stuff
 
