@@ -49,7 +49,9 @@ I (@hathix) followed these directions to get this repo running on macOS 10.13.
 * Set up xcode tools: https://stackoverflow.com/a/17980786
 * `brew install opencv suitesparse eigen glew glm freeglut cmake boost tinyxml2`
 * Clone this repo
-* Then start the below `./fips gen` stuff
+* `./fips gen`
+* `./fips build`
+* Then continue the below
 
 # Quickstart
 
