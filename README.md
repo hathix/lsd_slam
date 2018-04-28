@@ -49,9 +49,8 @@ I (@hathix) followed these directions to get this repo running on macOS 10.13.
 * Set up xcode tools: https://stackoverflow.com/a/17980786
 * `brew install opencv suitesparse eigen glew glm freeglut cmake boost tinyxml2`
 * Clone this repo
-* `./fips gen`
-* `./fips build`
-* Then continue the below
+* `./fips gen` works!
+* `./fips build` still runs into a dumb problem: `ld: library not found for -lcxsparse`. Help would be appreciated.
 
 # Quickstart
 
